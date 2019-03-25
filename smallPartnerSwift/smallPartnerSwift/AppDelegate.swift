@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        self.window = UIWindow.init(frame: CGRect.init(origin: CGPoint.zero, size: CGSize.init(width: 375, height: 667)))
+        self.window?.backgroundColor = UIColor.white
+        let tabvc = MBTabBarController()
+        self.window?.rootViewController = tabvc;
+        self.window?.makeKeyAndVisible()
+        
+        
         return true
     }
 

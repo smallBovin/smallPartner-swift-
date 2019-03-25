@@ -14,6 +14,7 @@
 		B0EE4AF8223F37AC008024AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0EE4AF6223F37AC008024AC /* LaunchScreen.storyboard */; };
 		B0EE4B03223F37AC008024AC /* smallPartnerSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EE4B02223F37AC008024AC /* smallPartnerSwiftTests.swift */; };
 		B0EE4B0E223F37AC008024AC /* smallPartnerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EE4B0D223F37AC008024AC /* smallPartnerSwiftUITests.swift */; };
+		B0EE4B1C223F4516008024AC /* MBTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EE4B1B223F4516008024AC /* MBTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B0EE4B09223F37AC008024AC /* smallPartnerSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smallPartnerSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0EE4B0D223F37AC008024AC /* smallPartnerSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smallPartnerSwiftUITests.swift; sourceTree = "<group>"; };
 		B0EE4B0F223F37AC008024AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0EE4B1B223F4516008024AC /* MBTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				B0EE4AED223F37AB008024AC /* AppDelegate.swift */,
 				B0EE4AEF223F37AB008024AC /* ViewController.swift */,
+				B0EE4B1B223F4516008024AC /* MBTabBarController.swift */,
 				B0EE4AF1223F37AB008024AC /* Main.storyboard */,
 				B0EE4AF4223F37AC008024AC /* Assets.xcassets */,
 				B0EE4AF6223F37AC008024AC /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0EE4B1C223F4516008024AC /* MBTabBarController.swift in Sources */,
 				B0EE4AF0223F37AB008024AC /* ViewController.swift in Sources */,
 				B0EE4AEE223F37AB008024AC /* AppDelegate.swift in Sources */,
 			);
